@@ -1,1 +1,2 @@
-alert("hello world");
+import {main} from './app/main.js'
+main();

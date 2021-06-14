@@ -1,5 +1,5 @@
-const numberOne = document.getElementById('number-one');
-const numberTwo = document.getElementById('number-two');
-const plusButton = document.getElementById('plus-button');
-const result = document.getElementById('result');
-const alertMessage = document.getElementById('alert-message');
+export const numberOne = document.getElementById('number-one');
+export const numberTwo = document.getElementById('number-two'); 
+export const plusButton = document.getElementById('plus-button');
+export const result = document.getElementById('result');
+export const alertMessage = document.getElementById('alert-message');

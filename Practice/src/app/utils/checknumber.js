@@ -9,3 +9,5 @@ const checkNumber = (a,b) =>{
         return false;
     }
 }
+
+export default checkNumber;

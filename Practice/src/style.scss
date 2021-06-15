@@ -6,9 +6,14 @@ img{
 }
 
 body{
-    background-color: cornflowerblue;
+    background-color: gainsboro;
 }
 
+#test-two{
+    width: 50px;
+    height: 50px;
+    background-image: url('./assets/img/img2.jpg');
+}
 .hidden{
     display: none;
 }

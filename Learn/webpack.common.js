@@ -2,8 +2,8 @@
  const path = require("path");
  module.exports = {
      entry: {
-       main : "./src/index.js",
-       vendor : "./src/vendor.js"
+       main : "./src/index.ts",
+     
      },
      plugins:[new HtmlWebpackPlugin({
        template : "./src/template.html"
@@ -23,5 +23,9 @@
             
              
         ]
-     }
+     },
+     resolve: {
+        extensions: ['.ts', '.js'],
+     },
+     devtool: 'eval-source-map'
  }
